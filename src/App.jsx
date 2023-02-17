@@ -11,7 +11,7 @@ import Home from "./pages/home/Home";
 import Details from "./pages/details/Details";
 import SearchResult from "./pages/searchResult/SearchResult";
 import Explore from "./pages/explore/Explore";
-import PageNotFound from "../src/pages/404/PageNotFound";
+import PageNotFound from "./pages/404/PageNotFound";
 
 function App() {
   const dispatch = useDispatch();
@@ -54,4 +54,4 @@ function App() {
 
 export default App;
 
-// https://gist.github.com/ShariqAnsari88/09dbadfd81c41b399a30f6eb9f1f9548
+
